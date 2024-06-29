@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { Container } from '@mui/material';
+import AddTaskPage from './pages/AddTaskPage';
+import EditTaskPage from './pages/EditTaskPage';
+import TaskListPage from './pages/TaskListPage';
+import Header from './components/Header';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Container sx={{ mt: 4 }}>
+        <Routes>
+          <Route path="/" element={<TaskListPage />} />
+          <Route path="/criar" element={<AddTaskPage />} />
+          <Route path="/editar/:id" element={<EditTaskPage />} />
+        </Routes>
+      </Container>
+    </>
   );
-}
+};
 
 export default App;
