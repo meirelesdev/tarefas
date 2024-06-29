@@ -1,46 +1,95 @@
-# Getting Started with Create React App
+# Projeto Agenda de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+Este repositorio foi criado para adicionar o frontend projeto Agenda de Tarefas.
 
-In the project directory, you can run:
+- [Projeto Agenda de Tarefas OnLine esta aqui.](https://testes.danielmeireles.com/ipm/agenda-tarefas/)
+  <p align="center">	
+     <a href="https://www.linkedin.com/in/developer-danielmn/">
+        <img alt="Daniel Meireles" src="https://img.shields.io/badge/-Daniel Meireles-0080000?style=flat&logo=Linkedin&logoColor=white" />
+     </a>
+    <img alt="Repository size" src="https://img.shields.io/github/languages/code-size/meirelesdev/tarefas?color=0080000label=repo%20size">
 
-### `npm start`
+    <a href="https://github.com/meirelesdev/tarefas/commits/main">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/meirelesdev/tarefas?color=0080000">
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# :pushpin: Índice
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como rodar o projeto](#rodando-o-projeto)
+- [Imagens](#imagens)
+- [Funcionalidades](#funcionalidades)
 
-### `npm test`
+<a id="sobre"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :bookmark: Sobre
 
-### `npm run build`
+O projeto frontend da <strong>Agenda de Tarefas</strong> é uma aplicação web desenvolvida com React.js que permite aos usuários gerenciar suas tarefas de maneira simples e intuitiva. A interface amigável proporciona uma experiência fluida para adicionar, editar, visualizar, marcar como concluídas e deletar tarefas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A aplicação utiliza Axios para realizar as chamadas ao backend, garantindo a comunicação eficiente com o servidor. Para tornar a interface visualmente atraente e responsiva, o projeto utiliza a biblioteca <a href="https://mui.com/" target="_blank">Material UI</a>, que oferece uma ampla variedade de componentes estilizados e prontos para uso.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este projeto foi desenvolvido para demonstrar minhas habilidades em desenvolvimento frontend moderno, incluindo o uso de componentes React, gerenciamento de estado, e integração com APIs RESTful.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a id="tecnologias-utilizadas"></a>
 
-### `npm run eject`
+## :rocket: Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O projeto aqui disposto foi desenvolvido utilizando as seguintes tecnologias:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ReacJS](https://pt-br.reactjs.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [Material UI](https://mui.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<a id="rodando-o-projeto"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Instalação
 
-## Learn More
+1. Clone este repositório:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+   git clone https://github.com/meirelesdev/tarefas.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Navegue até o diretório do projeto:
+
+```sh
+  cd tarefas
+```
+
+3. Instale as dependências:
+
+```sh
+  npm install
+```
+
+4. Crie uma copia do arquivo .env.example com o nome de .env.local e altera a variavel `REACT_APP_API_URL` adicionando a url do backend
+5. Inicie o Servidor de desenvolvimento com o comando:
+
+```sh
+  npm start
+```
+
+<a id="imagens"></a>
+
+## :bookmark: Imagens
+
+### Layout Responsivo
+
+![Layout Responsivo](.screens\Agenda_Tarefas.gif?raw=true "Responsividade")
+
+<a id="funcionalidades"></a>
+
+## :bookmark: Funcionalidades
+
+- Listar todas as tarefas
+- Adicionar uma nova tarefa
+- Editar uma tarefa existente
+- Marcar uma tarefa como concluída
+- Deletar uma tarefa
+
+<h4 align="center">
+    Feito com ❤️ by <a href="https://www.linkedin.com/in/developer-danielmn/" target="_blank">Daniel Meireles</a>
+</h4>
