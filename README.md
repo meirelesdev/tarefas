@@ -20,7 +20,6 @@ Este repositorio foi criado para adicionar o frontend projeto Agenda de Tarefas.
 - [Sobre](#sobre)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como rodar o projeto](#rodando-o-projeto)
-- [Imagens](#imagens)
 - [Funcionalidades](#funcionalidades)
 
 <a id="sobre"></a>
@@ -71,14 +70,6 @@ O projeto aqui disposto foi desenvolvido utilizando as seguintes tecnologias:
 ```sh
   npm start
 ```
-
-<a id="imagens"></a>
-
-## :bookmark: Imagens
-
-### Layout Responsivo
-
-![Layout Responsivo](screens\Agenda_Tarefas.gif?raw=true "Responsividade")
 
 <a id="funcionalidades"></a>
 
