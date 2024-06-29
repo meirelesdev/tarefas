@@ -78,7 +78,7 @@ O projeto aqui disposto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### Layout Responsivo
 
-![Layout Responsivo](.screens\Agenda_Tarefas.gif?raw=true "Responsividade")
+![Layout Responsivo](screens\Agenda_Tarefas.gif?raw=true "Responsividade")
 
 <a id="funcionalidades"></a>
 
